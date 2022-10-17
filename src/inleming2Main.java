@@ -1,8 +1,14 @@
+import javax.swing.*;
+import java.util.Scanner;
+
 public class inleming2Main {
     public static void main(String[] args) {
-//        ReadingFromFileCustomers customers = new ReadingFromFileCustomers();
-        gymMemberShipYesOrNo test = new gymMemberShipYesOrNo();
-        test.writeTrainingLogToFile();
+        NotWellness receptionPC = new NotWellness();
+        receptionPC.searchForPerson();
+
+        receptionPC.readingFromTextFile();
+        receptionPC.writeTrainingLogToFile();
+
 
     }
 }
