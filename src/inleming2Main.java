@@ -1,6 +1,3 @@
-import javax.swing.*;
-import java.util.Scanner;
-
 public class inleming2Main {
     public static void main(String[] args) {
         NotWellness receptionPC = new NotWellness();
@@ -8,7 +5,5 @@ public class inleming2Main {
 
         receptionPC.readingFromTextFile();
         receptionPC.writeTrainingLogToFile();
-
-
     }
 }
